@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Ferreira Junior - Transporte & Terraplanagem</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="Transporte, Terraplanagem, Construção, Escavação, Demolição" name="keywords">
+  <meta content="Ferreira Junior - Serviços de Transporte e Terraplanagem com qualidade e profissionalismo" name="description">
+  <link href="favicon.ico" rel="icon">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="flaticon.css" rel="stylesheet">
+  <link href="animate.min.css" rel="stylesheet">
+  <link href="owl.carousel.min.css" rel="stylesheet">
+  <link href="lightbox.min.css" rel="stylesheet">
+  <link href="slick.css" rel="stylesheet">
+  <link href="slick-theme.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --yellow: #FFC107;
+      --black:  #000000;
+      --white:  #FFFFFF;
+    }
+    body {
+      background-color: var(--white);
+      color: var(--black);
+      font-family: 'Poppins', sans-serif;
+    }
+    .btn-custom {
+      background: var(--yellow);
+      color: var(--black);
+      border: 2px solid var(--yellow);
+      transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    }
+    .btn-custom:hover {
+      background: var(--black);
+      color: var(--yellow);
+      transform: translateY(-3px);
+    }
+    .navbar {
+      background-color: var(--black) !important;
+    }
+    .navbar-nav .nav-link {
+      color: var(--yellow) !important;
+      transition: color 0.3s ease;
+    }
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link.active {
+      color: var(--white) !important;
+    }
+    .section-header p {
+      color: var(--black);
+    }
+    .service-item {
+      overflow: hidden;
+      transition: transform 0.5s ease, box-shadow 0.3s ease;
+    }
+    .service-item:hover {
+      transform: translateY(-10px) scale(1.03);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50%      { transform: scale(1.1); }
+    }
+    .btn-play span {
+      display: inline-block;
+      animation: pulse 2s infinite;
+    }
+    .section-header h2 {
+      position: relative;
+      display: inline-block;
+      padding-bottom: 8px;
+    }
+    .section-header h2::after {
+      content: '';
+      position: absolute;
+      width: 60%;
+      height: 4px;
+      background: var(--yellow);
+      bottom: 0;
+      left: 20%;
+      border-radius: 2px;
+    }
+    .fact.parallax-section {
+      background-attachment: fixed;
+      background-size: cover;
+      position: relative;
+    }
+    .fact.parallax-section::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+    }
+    .fact .fact-text,
+    .fact .fact-icon {
+      position: relative;
+      z-index: 1;
+      color: var(--white);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Barra Superior -->
+    <div class="top-bar">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-4 col-md-12">
+            <div class="logo" data-aos="fade-right" data-aos-duration="1000">
+              <a href="index.html">
+                <img src="logoSf.png" alt="Logo" style="width: 80px;" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-7 d-none d-lg-block">
+            <div class="row">
+              <div class="col-4">
+                <div class="top-bar-item" data-aos="fade-down" data-aos-delay="100">
+                  <div class="top-bar-icon"><i class="flaticon-calendar"></i></div>
+                  <div class="top-bar-text">
+                    <h3>Horário de Funcionamento</h3>
+                    <p>Seg - Sex, 7:00 - 18:00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="top-bar-item" data-aos="fade-down" data-aos-delay="200">
+                  <div class="top-bar-icon"><i class="flaticon-call"></i></div>
+                  <div class="top-bar-text">
+                    <h3>Contatos</h3>
+                    <p>+55 11 94088-1851</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="top-bar-item" data-aos="fade-down" data-aos-delay="300">
+                  <div class="top-bar-icon"><i class="flaticon-send-mail"></i></div>
+                  <div class="top-bar-text">
+                    <h3>Email</h3>
+                    <p>transpfj@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Nav Bar -->
+    <div class="nav-bar sticky-top">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a href="#" class="navbar-brand">MENU</a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav mr-auto">
+              <a href="#Home" class="nav-item nav-link active">Home</a>
+              <a href="#Servicos" class="nav-item nav-link">Serviços</a>
+              <a href="#Sobre" class="nav-item nav-link">Quem Somos</a>
+              <a href="#Valores" class="nav-item nav-link">Valores</a>
+              <a href="login.html" class="nav-item nav-link">Login</a>
+            </div>
+            <div class="ml-auto">
+              <a class="btn btn-custom" href="http://localhost/TRF/formulario.php">Solicite um Orçamento</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Carrossel -->
+    <div id="Home" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#Home" data-slide-to="0" class="active"></li>
+        <li data-target="#Home" data-slide-to="1"></li>
+        <li data-target="#Home" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="trator.jpg" alt="Carousel Image" class="img-fluid w-100">
+          <div class="carousel-caption">
+            <p class="animated fadeInRight" data-animation-delay="0.5s">Transporte & Terraplanagem</p>
+            <h1 class="animated fadeInLeft" data-animation-delay="1s">Ferreira Junior</h1>
+            <a class="btn animated fadeInUp btn-custom" data-animation-delay="1.5s" href="http://localhost/TRF/formulario.php">Solicite um Orçamento</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="carousel-2.jpg" alt="Carousel Image" class="img-fluid w-100">
+          <div class="carousel-caption">
+            <p class="animated fadeInRight" data-animation-delay="0.5s">Preparamos o terreno</p>
+            <h1 class="animated fadeInLeft" data-animation-delay="1s">Para o seu Futuro</h1>
+            <a class="btn animated fadeInUp btn-custom" data-animation-delay="1.5s" href="http://localhost/TRF/formulario.php">Solicite um Orçamento</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="trator.png" alt="Carousel Image" class="img-fluid w-100">
+          <div class="carousel-caption">
+            <p class="animated fadeInRight" data-animation-delay="0.5s">Seu Terreno Limpo</p>
+            <h1 class="animated fadeInLeft" data-animation-delay="1s">Pronto para Construir</h1>
+            <a class="btn animated fadeInUp btn-custom" data-animation-delay="1.5s" href="http://localhost/TRF/formulario.php">Solicite um Orçamento</a>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#Home" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#Home" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+    <!-- Valores -->
+    <div id="Valores">
+      <div class="feature" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-lg-4 col-md-12">
+              <div class="feature-item" data-aos="zoom-in" data-aos-delay="100">
+                <div class="feature-icon"><i class="flaticon-worker"></i></div>
+                <div class="feature-text">
+                  <h3>Profissionalismo</h3>
+                  <p>Todos os nossos profissionais são devidamente habilitados para operar maquinário pesado com segurança e eficiência.</p>
+                </div>  
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="feature-item" data-aos="zoom-in" data-aos-delay="200">
+                <div class="feature-icon"><i class="flaticon-building"></i></div>
+                <div class="feature-text">
+                  <h3>Qualidade</h3>
+                  <p>Qualidade e eficiência são valores fundamentais para a Ferreira Junior. Quem trabalha conosco uma vez, aprova.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="feature-item" data-aos="zoom-in" data-aos-delay="300">
+                <div class="feature-icon"><i class="flaticon-call"></i></div>
+                <div class="feature-text">
+                  <h3>Suporte</h3>
+                  <p>Sempre disponíveis em nossos canais de comunicação, para atender sempre que requisitados.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Sobre -->
+    <div id="Sobre">
+      <div class="about" data-aos="fade-up" data-aos-duration="1200">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-5 col-md-6">
+              <div class="about-img" data-aos="fade-right" data-aos-delay="200">
+                <img src="logo.jpg" alt="Image" class="img-fluid rounded shadow">
+              </div>
+            </div>
+            <div class="col-lg-7 col-md-6">
+              <div class="section-header text-left" data-aos="fade-left" data-aos-delay="100">
+                <p>Um pouco sobre nós</p>
+                <h2>15 anos de Qualidade e Serviço à comunidade</h2>
+              </div>
+              <div class="about-text" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                <p>
+                  A Ferreira Júnior é uma empresa familiar que nasceu na pequena cidade de Caieiras, SP,
+                  com um sonho simples, mas ambicioso: oferecer serviços de qualidade e contribuir para
+                  o desenvolvimento local.
+                  Fundada por Antonio Ferreira, a empresa começou de forma modesta, em um pequeno galpão,
+                  com poucos equipamentos, mantendo foco em prestar serviços especializados no setor de
+                  construção e transporte. Desde o início, a Ferreira Júnior se destacou pela dedicação ao
+                  trabalho e pela qualidade no atendimento, conquistando a confiança de seus primeiros clientes.
+                </p>
+                <p>
+                  Ao longo dos anos, a empresa foi crescendo, acompanhando o ritmo da cidade,
+                  que se expandia de forma constante.
+                  Com a entrada de novas gerações da família nos negócios, a Ferreira Júnior não apenas manteve
+                  sua excelência, mas também investiu em inovação e no aprimoramento de seus processos.
+                  Em 15 anos, passou de uma pequena empresa local para uma das mais reconhecidas de Caieiras,
+                  ajudando a transformar a cidade em um polo de desenvolvimento regional.
+                  A Ferreira Júnior se orgulha de seu legado, sempre mantendo os valores familiares e o
+                  compromisso com a comunidade. Hoje, é um exemplo de como o trabalho duro e a dedicação
+                  podem levar ao crescimento sustentável, beneficiando tanto a empresa quanto a cidade onde
+                  está inserida.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fact -->
+    <div class="fact parallax-section">
+      <div class="container-fluid">
+        <div class="row counters">
+          <div class="col-md-6 fact-left" data-aos="slide-right" data-aos-duration="1000">
+            <div class="row">
+              <div class="col-6">
+                <div class="fact-icon"><i class="flaticon-worker"></i></div>
+                <div class="fact-text">
+                  <h2 class="counter" data-toggle="counter-up">10</h2>
+                  <p>Experts na Área</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="fact-icon"><i class="flaticon-building"></i></div>
+                <div class="fact-text">
+                  <h2 class="counter" data-toggle="counter-up">580</h2>
+                  <p>Clientes Alcançados</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 fact-right" data-aos="slide-left" data-aos-duration="1000">
+            <div class="row">
+              <div class="col-6">
+                <div class="fact-icon"><i class="flaticon-address"></i></div>
+                <div class="fact-text">
+                  <h2 class="counter" data-toggle="counter-up">600</h2>
+                  <p>Projetos concluídos</p>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="fact-icon"><i class="flaticon-crane"></i></div>
+                <div class="fact-text">
+                  <h2 class="counter" data-toggle="counter-up">15</h2>
+                  <p>Anos de Experiência</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Serviços -->
+    <div id="Servicos" class="service">
+      <div class="container">
+        <div class="section-header text-center" data-aos="zoom-in" data-aos-duration="800">
+          <p>Nossos Serviços</p>
+          <h2>Oferecemos serviços de qualidade</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-duration="800" data-aos-delay="150">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="servico01.jpg" alt="Escavação" class="img-fluid">
+                <div class="service-overlay">
+                  <p>Remoção de terra e rochas para criar fundações, valas, poços ou túneis.</p>
+                </div>
+              </div>
+              <div class="service-text">
+                <h3>Escavação</h3>
+                <a class="btn btn-custom" href="servico01.jpg" data-lightbox="service">+</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-duration="800" data-aos-delay="250">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="servico02.jpg" alt="Demolição Estrutural" class="img-fluid">
+                <div class="service-overlay">
+                  <p>Demolição controlada de estruturas existentes, com remoção segura de detritos.</p>
+                </div>
+              </div>
+              <div class="service-text">
+                <h3>Demolição Estrutural</h3>
+                <a class="btn btn-custom" href="servico02.jpg" data-lightbox="service">+</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-duration="800" data-aos-delay="350">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="servico03.jpg" alt="Retirada e Transporte" class="img-fluid">
+                <div class="service-overlay">
+                  <p>Transporte eficiente de materiais de construção, entulho e terra para descarte adequado.</p>
+                </div>
+              </div>
+              <div class="service-text">
+                <h3>Retirada e Transporte</h3>
+                <a class="btn btn-custom" href="servico03.jpg" data-lightbox="service">+</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-duration="800" data-aos-delay="150">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="servico04.jpg" alt="Aterramento de Solo" class="img-fluid">
+                <div class="service-overlay">
+                  <p>Preenchimento de áreas baixas com solo compactado para criar uma base sólida.</p>
+                </div>
+              </div>
+              <div class="service-text">
+                <h3>Aterramento de Solo</h3>
+                <a class="btn btn-custom" href="servico04.jpg" data-lightbox="service">+</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-duration="800" data-aos-delay="250">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="servico05.jpg" alt="Regularização de Solo" class="img-fluid">
+                <div class="service-overlay">
+                  <p>Preparação do terreno para construção, removendo irregularidades e compactando o solo.</p>
+                </div>
+              </div>
+              <div class="service-text">
+                <h3>Regularização de Solo</h3>
+                <a class="btn btn-custom" href="servico05.jpg" data-lightbox="service">+</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-duration="800" data-aos-delay="350">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="servico06.jpg" alt="Nivelamento de Terreno" class="img-fluid">
+                <div class="service-overlay">
+                  <p>Ajuste da altura do solo, criando uma superfície plana e estável para a construção.</p>
+                </div>
+              </div>
+              <div class="service-text">
+                <h3>Nivelamento de Terreno</h3>
+                <a class="btn btn-custom" href="servico06.jpg" data-lightbox="service">+</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Video -->
+    <div class="video" data-aos="fade-in" data-aos-duration="1500">
+      <div class="container">
+        <button type="button" class="btn-play pulse-animation" data-toggle="modal" data-src="https://www.youtube.com/embed/mhafvzZ-0k0" data-target="#videoModal">
+          <span></span>
+        </button>
+      </div>
+    </div>
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>        
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Texto Final -->
+    <div class="blog">
+      <div class="container">
+        <div class="section-header text-center" data-aos="zoom-in" data-aos-duration="1000">
+          <p>Transporte e Terraplanagem</p>
+          <h2>Ferreira Junior</h2>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer" data-aos="fade-up" data-aos-duration="1000">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-contact">
+              <h2>Contato</h2>
+              <p><i class="fa fa-map-marker-alt"></i>Av. Paulicéa, 2063 - Jd.Laranjeiras - Caieiras - SP</p>
+              <p><i class="fa fa-phone-alt"></i>+55 11 94088-1851</p>
+              <p><i class="fa fa-envelope"></i>transpfj@gmail.com</p>
+              <div class="footer-social">
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-link">
+              <h2>Serviços</h2>
+              <a href="#Servicos">Escavação</a>
+              <a href="#Servicos">Demolição Estrutural</a>
+              <a href="#Servicos">Retirada e Transporte</a>
+              <a href="#Servicos">Aterramento de Solo</a>
+              <a href="#Servicos">Regularização de Solo</a>
+              <a href="#Servicos">Nivelamento de Terreno</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-link">
+              <h2>Links Úteis</h2>
+              <a href="#Sobre">Quem Somos</a>
+              <a href="#Servicos">Serviços</a>
+              <a href="#Valores">Nossos Valores</a>
+              <a href="#Home">Voltar ao Topo</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-newsletter">
+              <h2>Newsletter</h2>
+              <p>Inscreva-se para receber as últimas notícias e promoções.</p>
+              <div class="newsletter-form">
+                <input class="form-control" placeholder="Seu Email Aqui">
+                <button class="btn btn-custom">Inscrever</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container copyright">
+        <div class="row">
+          <div class="col-md-6">
+            <p>© <a href="#">Ferreira Junior</a>, Todos os direitos reservados.</p>
+          </div>
+          <div class="col-md-6">
+            <p>Desenvolvido por <a href="#">Mario VB, Mauricio Matheus</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="easing.min.js"></script>
+  <script src="wow.min.js"></script>
+  <script src="owl.carousel.min.js"></script>
+  <script src="isotope.pkgd.min.js"></script>
+  <script src="lightbox.min.js"></script>
+  <script src="waypoints.min.js"></script>
+  <script src="counterup.min.js"></script>
+  <script src="slick.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true
+    });
+
+    $(document).ready(function() {
+      $('.counter').counterUp({
+        delay: 10,
+        time: 1500
+      });
+
+      $('.btn-play').click(function() {
+        var videoSrc = $(this).data('src');
+        $('#video').attr('src', videoSrc + "?autoplay=1&modestbranding=1&showinfo=0");
+      });
+
+      $('#videoModal').on('hidden.bs.modal', function() {
+        $('#video').attr('src', '');
+      });
+
+      $('a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
+        var target = this.hash;
+        var $target = $(target);
+        $('html, body').animate({
+          'scrollTop': $target.offset().top - 70
+        }, 1000, 'easeInOutExpo');
+      });
+
+      $(window).scroll(function() {
+        var scrollDistance = $(window).scrollTop();
+        $('section, .service, .about, .feature, .fact, .video, .blog, .footer').each(function(i) {
+          if ($(this).position().top <= scrollDistance + 100) {
+            $('.navbar-nav a.active').removeClass('active');
+            $('.navbar-nav a').eq(i).addClass('active');
+          }
+        });
+      });
+
+      $('.carousel').on('slide.bs.carousel', function(e) {
+        var $nextSlide = $(e.relatedTarget);
+        $nextSlide.find('.animated').each(function() {
+          var animationClass = $(this).attr('class').match(/animated\s+(\w+)/);
+          if (animationClass) {
+            $(this).removeClass(animationClass[1]).addClass('invisible');
+          }
+        });
+        setTimeout(function() {
+          $nextSlide.find('.animated').each(function() {
+            var animationClass = $(this).attr('class').match(/animated\s+(\w+)/);
+            var delay = $(this).data('animation-delay') || 0;
+            var $this = $(this);
+            setTimeout(function() {
+              $this.removeClass('invisible').addClass(animationClass[1]);
+            }, delay);
+          });
+        }, 100);
+      });
+
+      $('.carousel-item.active').find('.animated').each(function() {
+        var animationClass = $(this).attr('class').match(/animated\s+(\w+)/);
+        var delay = $(this).data('animation-delay') || 0;
+        var $this = $(this);
+        setTimeout(function() {
+          $this.removeClass('invisible').addClass(animationClass[1]);
+        }, delay);
+      });
+    });
+  </script>
+</body>
+</html>

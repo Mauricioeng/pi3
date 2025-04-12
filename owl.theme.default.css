@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Construction Company Website Template" name="keywords">
+        <meta content="Construction Company Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="favicon.ico" rel="icon">
+
+        <!-- Fontes Google -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="flaticon.css" rel="stylesheet"> 
+        <link href="animate.min.css" rel="stylesheet">
+        <link href="owl.carousel.min.css" rel="stylesheet">
+        <link href="lightbox.min.css" rel="stylesheet">
+        <link href="slick.css" rel="stylesheet">
+        <link href="slick-theme.css" rel="stylesheet">
+
+        <!--Stylesheet -->
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!-- Inicio da Barra Superior -->
+            <div class="top-bar">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="logoSf.png" alt="Logo" style=" width: 80px;">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-7 d-none d-lg-block">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-calendar"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>Horario de Funcionamento</h3>
+                                            <p>Seg - Sex, 7:00 - 18:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-call"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>Contatos</h3>
+                                            <p>+55 11 94088-1851</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-send-mail"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>Email</h3>
+                                            <p>transpfj@gmail.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim da Barra Superior-->
+
+            <!-- Nav Bar Inicio -->
+            <div class="nav-bar">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                        <a href="#" class="navbar-brand">MENU</a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto">
+                                <a href="#Home" class="nav-item nav-link active">Home</a>
+                                <a href="#Servicos" class="nav-item nav-link">Serviços</a>
+                                <a href="#Sobre" class="nav-item nav-link">Quem Somos</a>
+                                <a href="#Valores" class="nav-item nav-link">Valores</a>
+                            </div>
+                            <div class="ml-auto">
+                                <a class="btn" href="orcamento.html">Solicite um Oraçamento</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- Nav Bar Fim -->
+
+            <!-- Carrocel Inicio -->
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="trator.jpg" alt="Carousel Image">
+                        <div class="carousel-caption">
+                            <p class="animated fadeInRight">Transporte & Terraplanagem </p>
+                            <h1 class="animated fadeInLeft">Ferreira Junior</h1>
+                            <a class="btn animated fadeInUp" href="https://htmlcodex.com/construction-company-website-template">Solicite um Oraçamento</a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="carousel-2.jpg" alt="Carousel Image">
+                        <div class="carousel-caption">
+                            <p class="animated fadeInRight">Preparamos o terreno</p>
+                            <h1 class="animated fadeInLeft">Para o seu Futuro</h1>
+                            <a class="btn animated fadeInUp" href="https://htmlcodex.com/construction-company-website-template">Solicite um Oraçamento</a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="trator.png" alt="Carousel Image">
+                        <div class="carousel-caption">
+                            <p class="animated fadeInRight">Seu Terreno Limpo</p>
+                            <h1 class="animated fadeInLeft">Pronto para Construir</h1>
+                            <a class="btn animated fadeInUp" href="https://htmlcodex.com/construction-company-website-template">Solicite um Orçamento</a>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Proximo</span>
+                </a>
+            </div>
+            <!-- Carrosseu Fim-->
+
+
+            <!-- Valores Inicio-->
+        <div id="Valores">
+            <div class="feature wow fadeInUp" data-wow-delay="0.1s">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="flaticon-worker"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h3>profissionalismo</h3>
+                                    <p>Todos os nossos profissionais são devidamente habilitados para operar maquinário pesado com segurança e eficiência.</p>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="flaticon-building"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h3>Qualidade</h3>
+                                    <p>Qualidade e eficiência são valores fundamentais para a Ferrejira Junior. Quem trabalha conosco uma vez, aprova.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="flaticon-call"></i>
+                                </div>
+                                <div class="feature-text">
+                                    <h3>Suporte</h3>
+                                    <p>Sempre disponíveis em nossos canais de comunicação, para atender sempre que requisitados.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!--Qualidade Fim-->
+
+            <!-- Sobre -->
+        <div id="Sobre">
+            <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-6">
+                            <div class="about-img">
+                                <img src="logo.jpg" alt="Image">
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-6">
+                            <div class="section-header text-left">
+                                <p>Um pouco sobre nós</p>
+                                <h2>15 anos de Qualidade e Serviço a comunidade</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    A Ferreira Júnior é uma empresa familiar que nasceu na pequena cidade de Ciaeiras, SP,
+                                    com um sonho simples, mas ambicioso: oferecer serviços de qualidade e contribuir para 
+                                    o desenvolvimento local.
+                                    Fundada por Antonio Ferreira, a empresa começou de forma modesta, em um pequeno galpão, 
+                                    com poucos equipamentos, mantendo foco em prestar serviços especializados no setor de 
+                                    construção e transporte. Desde o início, a Ferreira Júnior se destacou pela dedicação ao 
+                                    trabalho e pela qualidade no atendimento, conquistando a confiança de seus primeiros clientes.
+                                </p>
+                                <p>
+                                    Ao longo dos anos, a empresa foi crescendo, acompanhando o ritmo da cidade, 
+                                    que se expandia de forma constante. 
+                                    Com a entrada de novas gerações da família nos negócios, a Ferreira Júnior não apenas manteve
+                                    sua excelência, mas também investiu em inovação e no aprimoramento de seus processos. 
+                                    Em 15 anos, passou de uma pequena empresa local para uma das mais reconhecidas de Ciaeiras, 
+                                    ajudando a transformar a cidade em um polo de desenvolvimento regional.
+                                    A Ferreija Júnior se orgulha de seu legado, sempre mantendo os valores familiares e o 
+                                    compromisso com a comunidade. Hoje, é um exemplo de como o trabalho duro e a dedicação 
+                                    podem levar ao crescimento sustentável, beneficiando tanto a empresa quanto a cidade onde 
+                                    está inserida.
+                                </p>
+                            </div>
+                            <a href=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Sobre Fim -->
+
+
+            <!-- Propaganda ** Menu com numeros // FACT -->
+            <div class="fact">
+                <div class="container-fluid">
+                    <div class="row counters">
+                        <div class="col-md-6 fact-left wow slideInLeft">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="fact-icon">
+                                        <i class="flaticon-worker"></i>
+                                    </div>
+                                    <div class="fact-text">
+                                        <h2 data-toggle="counter-up">10</h2>
+                                        <p>Expert na Area</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="fact-icon">
+                                        <i class="flaticon-building"></i>
+                                    </div>
+                                    <div class="fact-text">
+                                        <h2 data-toggle="counter-up">580</h2>
+                                        <p>Clientes Alcançados</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 fact-right wow slideInRight">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="fact-icon">
+                                        <i class="flaticon-address"></i>
+                                    </div>
+                                    <div class="fact-text">
+                                        <h2 data-toggle="counter-up">600</h2>
+                                        <p>Projetos concluidos</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="fact-icon">
+                                        <i class="flaticon-crane"></i>
+                                    </div>
+                                    <div class="fact-text">
+                                        <h2 data-toggle="counter-up">188</h2>
+                                        <p>Projetos em Andamento</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fact End -->
+
+
+            <!-- Service Inicio -->
+             <div id="Escavacao"></div>
+           <div id="Servicos">
+            <div class="service">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <p>Especialidades</p>
+                        <h2>Nossos Serviços</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="servico01.jpg" alt="Image">
+                                    <div class="service-overlay">
+                                        <p>
+                                            envolve a remoção de terra para preparar o terreno, criando fundações ou ajustando o nível do solo. 
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Escavação</h3>
+                                    <a class="btn" href="#" data-lightbox="service">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="servico02.jpg" alt="Image">
+                                    <div class="service-overlay">
+                                        <p>
+                                            Análise e elaboração dos projetos que garantem a desconstrução de estruturas de forma eficiente e segura..
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Demolição Estrutural</h3>
+                                    <a class="btn" href="servico02.jpg" data-lightbox="service">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="servico03.jpg" alt="Image">
+                                    <div class="service-overlay">br
+                                        <p>
+                                            A retirada e transporte de terra e entulho garantem a limpeza do terreno, deixando-o com suas dimensões livres e prontas para construção.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Retirada e Tranporte</h3>
+                                    <a class="btn" href="servico03.jpg" data-lightbox="service">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="servico04.jpg" alt="Image">
+                                    <div class="service-overlay">
+                                        <p>
+                                            Preenchimento de áreas baixas com terra ou outros materiais, elevando o solo para alcançar o nível desejado.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div id="Aterramento"></div>
+                                <div class="service-text">
+                                    <h3>Aterramento de Solo</h3>
+                                    <a class="btn" href="servico04.jpg" data-lightbox="service">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="servico05.jpg" alt="Image">
+                                    <div class="service-overlay">
+                                        <p>
+                                            Ajuste final do solo para garantir uma base uniforme e pronta para o assentamento de pavimentos ou construções.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Regularização de solo</h3>
+                                    <a class="btn" href="servico05.jpg" data-lightbox="service">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="servico06.jpg" alt="Image">
+                                    <div class="service-overlay">
+                                        <p>
+                                            Ajuste da altura do solo, criando uma superfície plana e estável para a construção.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="service-text">
+                                    <h3>Nivelamento de terreno</h3>
+                                    <a class="btn" href="servico06.jpg" data-lightbox="service">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Fim  -->
+             
+            <!-- Video -->
+            <div class="video wow fadeIn" data-wow-delay="0.1s">
+                <div class="container">
+                   <!-- <button type="button" class="btn-play" data-toggle="modal" data-src="https://www.youtube.com/watch?v=mhafvzZ-0k0" data-target="#videoModal">
+                        <span></span>-->
+                    </button>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>      
+                            <!-- 16:9 aspect ratio -->
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Video Fim -->
+           
+            <!-- Texto Final -->
+            <div class="blog">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <p>Transporte e Terraplanagem</p>
+                        <h2>Ferreira Junior</h2>
+                    </div>
+                      </div>
+                        </div>
+            <!-- Texto Final -->
+
+
+            <!-- Footer Start -->
+            <div class="footer wow fadeIn" data-wow-delay="0.3s">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="footer-contact">
+                                <h2>Office Contact</h2>
+                                <p><i class="fa fa-map-marker-alt"></i>Av. Paulicéa, 2063 - Jd.Laranjeiras - Caieirias - SP</p>
+                                <p><i class="fa fa-phone-alt"></i>+55 11 94088-1851</p>
+                                <p><i class="fa fa-envelope"></i>transpfj@gmail</p>
+                                <div class="footer-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-youtube"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="footer-link">
+                                <h2>Services Areas</h2>
+                                <a href="#Escavacao">Escavação</a>
+                                <a href="#Escavacao">Demolição Estrutural</a>
+                                <a href="#Escavacao">Retirada e Tranporte</a>
+                                <a href="#Escavacao">Aterramento de Solo</a>
+                                <a href="#Escavacao">Regularização de solo</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="footer-link">
+                                <h2>Useful Pages</h2>
+                                <a href="#Sobre">Quem Somos</a>
+                                <a href="#Servicos">Servicos</a>
+                                <a href="#Valores">Visão e Valores</a>
+                                <a href="#Home">De volta ao Topo</a>
+                                
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+                               </div>
+                <div class="container copyright">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>&copy; <a href="#">Ferreira Junior</a>, Direitos Reservados.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Designed By <a href="">Mario VB, Mauricio Matheus & Efrem Medeirico</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+
+            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+
+        <!-- Livraria JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="easing.min.js"></script>
+        <script src="wow.min.js"></script>
+        <script src="owl.carousel.min.js"></script>
+        <script src="isotope.pkgd.min.js"></script>
+        <script src="lightbox.min.js"></script>
+        <script src="waypoints.min.js"></script>
+        <script src="counterup.min.js"></script>
+        <script src="slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="main.js"></script>
+    </body>
+</html>
